@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Features
 
-Things you may want to cover:
+Users simply visit the homepage, enter their name, and then enter the chat room.
+The messages from users will appear as a streaming message feed.
 
-* Ruby version
+## Try it out
 
-* System dependencies
+Open two separate browsers to http://localhost:3000 and have a conversation with yourself.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
