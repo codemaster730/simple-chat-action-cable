@@ -1,0 +1,22 @@
+<div id=enter_name_container>
+
+  <p>Enter your name:<p>
+
+  <%= form_tag '', id: 'join_chat_form' do %>
+    <%= text_field_tag :username %>
+    <br><br>
+    <%= submit_tag 'Enter chat', data: { disable_with: false } %>
+  <% end %>
+
+</div>
+
+<div id=messages_container style='display: none'>
+
+  <%= form_tag '', id: 'message_form' do %>
+    <%= text_field_tag :message %>
+  <% end %>
+
+  <div id=messages>
+  </div>
+
+</div>
